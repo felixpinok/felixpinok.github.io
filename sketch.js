@@ -8,7 +8,7 @@ var status;
 var img;
 
 function preload() {
-  img = loadImage('images/logoFpk.tif')
+  img = loadImage('logoFpk.tif')
 }
 
 function setup() {
