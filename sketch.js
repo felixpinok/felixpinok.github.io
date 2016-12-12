@@ -15,6 +15,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   status = 0;
+  createP('contact: felixpinok at gmail dot com');
 }
 
 function draw() {
