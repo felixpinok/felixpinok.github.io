@@ -20,7 +20,6 @@ function setup() {
 function draw() {
   background(0,0,255); //51
   noFill();
-  image(img, mouseX, mouseY);
   if (status == 0) screen0();
   if (status == 1) screen1();
   if (status == 2) screen2();
@@ -41,6 +40,7 @@ function mousePressed() {
 
 function screen0() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -66,6 +66,7 @@ function screen0() {
 
 function screen1() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -91,6 +92,7 @@ function screen1() {
 
 function screen2() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -116,6 +118,7 @@ function screen2() {
 
 function screen3() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -141,6 +144,7 @@ function screen3() {
 
 function screen4() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -166,6 +170,7 @@ function screen4() {
 
 function screen5() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -192,6 +197,7 @@ function screen5() {
 
 function screen6() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -217,6 +223,7 @@ function screen6() {
 
 function screen7() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
@@ -242,6 +249,7 @@ function screen7() {
 
 function screen8() {
   var inc = map(mouseY, 0, height, 0., 10);
+  image(img, 0, 0);
   background(0,0,255); //background(0, 0, 15); o 51
   tono = tono + velTono;
   if (tono > 321.) {
