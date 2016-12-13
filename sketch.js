@@ -15,7 +15,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
-  status = 0;
+  status = int(random(1,8));
   createP('contact: felixpinok at gmail dot com');
 }
 
