@@ -4,7 +4,7 @@ var s = 0;
 var y = 0;
 var tono = 174;
 var velTono = 0.5;
-var status;
+var status = 6;
 var img;
 
 /*
